@@ -34,7 +34,7 @@ public class RandomUtilTest {
 
 	@Test
 	public void testRandomString() {
-		System.out.println(RandomUtil.randomString(4));
+		System.out.println(RandomUtil.randomString(9));
 	}
 
 }

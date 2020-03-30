@@ -14,21 +14,21 @@ public class StringUtilTest {
 
 	@Test
 	public void testHasLength() {
-		String src="";
+		String src=" ";
 		boolean hasLength = StringUtil.hasLength(src);
 		System.out.println(hasLength);
 	}
 
 	@Test
 	public void testHasText() {
-		String src=" s";
+		String src="  ";
 		boolean hasLength = StringUtil.hasText(src);
 		System.out.println(hasLength);
 	}
 
 	@Test
 	public void testRandomChineseString() {
-		System.out.println(StringUtil.randomChineseString(3));
+		System.out.println(StringUtil.randomChineseString(11));
 	}
 
 	@Test

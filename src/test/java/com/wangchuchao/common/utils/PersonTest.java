@@ -11,12 +11,17 @@ import com.wcc.util.utils.DateUtil;
 /**
  * 
  * @ClassName: PersonTest 
- * @Description: Person测试类
+ * @Description: Person测试类效果
  * @author: 61466
  * @date: 2020年3月30日 下午3:16:46
  */
 public class PersonTest {
-
+	/**
+	 * 
+	 * @Title: test1 
+	 * @Description: 测试效果录屏
+	 * @return: void
+	 */
 	@Test
 	public void test1() {
 		for (int i = 0; i <10000; i++) {

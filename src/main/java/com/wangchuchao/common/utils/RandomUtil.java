@@ -13,13 +13,14 @@ public class RandomUtil {
 	/**
 	 * 
 	 * @Title: random 
-	 * @Description: 返回min-max之间的随机整数
+	 * @Description: 返回min-max之间的随机整数测试效果
 	 * @param min
 	 * @param max
 	 * @return
 	 * @return: int
 	 */
 	public static int random(int min, int max){
+		
 		Random random = new Random();
 		int nextInt = random.nextInt((max-min+1))+min;
 		return nextInt;
